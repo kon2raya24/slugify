@@ -1,0 +1,39 @@
+{
+  "name": "slugify",
+  "version": "1.0.0",
+  "description": "Lightweight URL slug generator with Unicode support",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "lint": "eslint src/"
+  },
+  "keywords": [
+    "slug",
+    "url",
+    "seo",
+    "string",
+    "unicode",
+    "typescript",
+    "utilities"
+  ],
+  "author": "kon2raya",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kon2raya24/slugify.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "vitest": "^3.0.0"
+  }
+}
