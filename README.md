@@ -19,3 +19,11 @@ npm install slugify
 ## License
 
 MIT
+
+
+## Usage
+
+```typescript
+import { } from 'slugify';
+// See API section for available functions
+```
