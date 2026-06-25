@@ -1,3 +1,7 @@
+/**
+ * slugify
+ * @param text
+ */
 export function slugify(text: string): string {
   if (!text || typeof text !== "string") throw new Error("Input must be a non-empty string");
   return text
